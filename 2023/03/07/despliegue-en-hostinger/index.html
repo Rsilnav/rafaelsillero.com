@@ -13,12 +13,12 @@
 <meta property="og:site_name" content="Rafael Sillero">
 <meta property="og:description" content="Este blog está alojado en Hostinger, que se actualiza automáticamente cada vez que hago un cambio en un repositorio alojado en GitHub.Para conseguir un comportamiento similar, sube a tu repositorio un">
 <meta property="og:locale" content="es_ES">
-<meta property="og:image" content="https://rafaelsillero.com/2023/03/07/despliegue-en-hostinger/webhook.png">
+<meta property="og:image" content="https://rafaelsillero.com/images/hostinger-webhook.png">
 <meta property="article:published_time" content="2023-03-07T12:39:16.000Z">
-<meta property="article:modified_time" content="2023-03-07T12:00:33.584Z">
-<meta property="article:author" content="Rafael Sillero Navajas">
+<meta property="article:modified_time" content="2023-03-07T23:32:06.384Z">
+<meta property="article:author" content="Rafael Sillero">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://rafaelsillero.com/2023/03/07/despliegue-en-hostinger/webhook.png">
+<meta name="twitter:image" content="https://rafaelsillero.com/images/hostinger-webhook.png">
     
     
       
@@ -55,9 +55,9 @@
 <body class="max-width mx-auto px3 ltr">
     
       <div id="header-post">
-  <a id="menu-icon" href="#" aria-label="القائمة"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="menu-icon-tablet" href="#" aria-label="القائمة"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" aria-label="الأعلى" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <a id="menu-icon" href="#" aria-label="اMenú"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="اMenú"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Arriba" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
   <span id="menu">
     <span id="nav">
       <ul>
@@ -70,7 +70,7 @@
      --><!--
        --><li><a href="/projects/">Proyectos</a></li><!--
      --><!--
-       --><li><a href="/categories/">Categorías</a></li><!--
+       --><li><a href="/categories/">categories</a></li><!--
      -->
       </ul>
     </span>
@@ -78,8 +78,8 @@
     <span id="actions">
       <ul>
         
+        <li><a class="icon" aria-label="Post Anterior" href="/2023/03/07/telefonica-challenge-1/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
-        <li><a class="icon" aria-label="Post Siguiente" href="/2023/03/07/hello-world/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
         
         <li><a class="icon" aria-label="Arriba" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
         <li><a class="icon" aria-label="Compartir Post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
@@ -126,7 +126,7 @@
 
     <div class="meta">
       <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">Rafael Sillero Navajas</span>
+        <span itemprop="name">Rafael Sillero</span>
       </span>
       
     <div class="postdate">
@@ -157,8 +157,7 @@
 <p>En este caso es mucho más sencillo, ya que no hace falta configuración previa, simplemente utilizar la URL que empieza por <code>https://github.com/...</code></p>
 <hr>
 <p>Una vez se tiene la URL, se escriben en la misma web de Hostinger, en el apartado <code>Repositorio</code>, en el branch se escribe <code>gh-pages</code> que es donde estarán nuestros archivos estáticos y en Directorio se deja en blanco (es la carpeta dentro de <code>public_html</code> donde se copiará en contenido). Una vez esté todo configurado, creamos el repositorio y entre los botones que aparecen más abajo, se selecciona el de <code>Implementación automática</code> y obtendremos algo parecido a esto:</p>
-<img src="/2023/03/07/despliegue-en-hostinger/webhook.png" class="">
-
+<p><img src="/images/hostinger-webhook.png"></p>
 <p>Si entramos en el enlace de configuración de webhook de Github, llegaremos a un formulario en el que nos permitirá crear uno nuevo. Ahí solamente debemos insertar la URL del webhook (con cuidado de no perder ningún carácter del final), y en el tipo de payload, seleccionar JSON.</p>
 <p>Una vez esté configurado, no tendremos más que hacer push con cambios o nuevos posts al repositorio, Github se encargará de generar los nuevos archivos y avisará a Hostinger, que los recogerá y pondrá a disposición de acceso web.</p>
 
@@ -182,7 +181,7 @@
          
           <li><a href="/projects/">Proyectos</a></li>
          
-          <li><a href="/categories/">Categorías</a></li>
+          <li><a href="/categories/">categories</a></li>
         
       </ul>
     </div>
@@ -225,7 +224,7 @@
     
     
     2016-2023
-    Rafael Sillero Navajas
+    Rafael Sillero
   </div>
   <div class="footer-right">
     <nav>
@@ -239,7 +238,7 @@
      --><!--
        --><li><a href="/projects/">Proyectos</a></li><!--
      --><!--
-       --><li><a href="/categories/">Categorías</a></li><!--
+       --><li><a href="/categories/">categories</a></li><!--
      -->
       </ul>
     </nav>
@@ -269,7 +268,7 @@
   <script type="text/javascript">
   $(function() {
     // copy-btn HTML
-    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"انسخ!\">";
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
     btn += '<i class="far fa-clone"></i>';
     btn += '</span>'; 
     // mount it!
@@ -280,7 +279,7 @@
       }
     });
     clip.on('success', function(e) {
-      e.trigger.setAttribute('aria-label', "تم النسخ!");
+      e.trigger.setAttribute('aria-label', "Copied!");
       e.clearSelection();
     })
   })

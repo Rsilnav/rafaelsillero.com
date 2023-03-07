@@ -7,7 +7,7 @@ title: Rafael Sillero
 subtitle: ''
 description: ''
 keywords:
-author: Rafael Sillero Navajas
+author: Rafael Sillero
 language: es
 timezone: ''
 
@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:

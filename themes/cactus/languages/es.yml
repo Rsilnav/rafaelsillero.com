@@ -2,9 +2,14 @@ nav:
   home: Inicio
   about: Acerca de
   articles: Articulos
+  tag: Etiquetas
   projects: Proyectos
-  categories: Categorías
+  category: Categorías
   search: Buscar
+
+icons:
+  menu: اMenú
+  top: Arriba
 
 footer:
   copyright: Copyright
@@ -15,6 +20,8 @@ index:
   enum_and: y
   articles: Articulos
   projects: Proyectos
+  topics: Temas
+  most_recent: Más reciente
 
 post:
   desktop:
@@ -37,3 +44,26 @@ pagination:
 
 comments:
   no_js: Por favor activa JavaScript para ver el contenido.
+
+tag_cloud:
+  zero: No tags
+
+counter:
+  tag_cloud:
+    zero: No tags
+    one: ""
+    other: ""
+
+  categories:
+    zero: No categories
+    one: ""
+    other: ""
+
+  archive_posts:
+    zero: No posts.
+    one: ""
+    other: ""
+
+tooltip:
+  copy_tip: Copy to clipboard!
+  copied: Copied!

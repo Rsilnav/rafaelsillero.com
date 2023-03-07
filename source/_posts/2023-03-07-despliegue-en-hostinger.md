@@ -69,7 +69,7 @@ En este caso es mucho más sencillo, ya que no hace falta configuración previa,
 
 Una vez se tiene la URL, se escriben en la misma web de Hostinger, en el apartado `Repositorio`, en el branch se escribe `gh-pages` que es donde estarán nuestros archivos estáticos y en Directorio se deja en blanco (es la carpeta dentro de `public_html` donde se copiará en contenido). Una vez esté todo configurado, creamos el repositorio y entre los botones que aparecen más abajo, se selecciona el de `Implementación automática` y obtendremos algo parecido a esto:
 
-{% asset_img webhook.png %}
+![](/images/hostinger-webhook.png)
 
 Si entramos en el enlace de configuración de webhook de Github, llegaremos a un formulario en el que nos permitirá crear uno nuevo. Ahí solamente debemos insertar la URL del webhook (con cuidado de no perder ningún carácter del final), y en el tipo de payload, seleccionar JSON.
 

@@ -31,7 +31,6 @@ jobs:
 
       - name: Hexo
         run: |
-          pandoc --version
           npm i -g hexo-cli
           npm i
           hexo clean && hexo g
